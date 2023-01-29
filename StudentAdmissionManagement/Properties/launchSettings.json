@@ -1,0 +1,32 @@
+﻿{
+  "$schema": "https://json.schemastore.org/launchsettings.json",
+  "iisSettings": {
+    "windowsAuthentication": false,
+    "anonymousAuthentication": true,
+    "iisExpress": {
+      "applicationUrl": "http://localhost:32162",
+      "sslPort": 44344
+    }
+  },
+  "profiles": {
+    "StudentAdmissionManagement": {
+      "commandName": "Project",
+      "dotnetRunMessages": true,
+      //"launchBrowser": true,
+      //"launchUrl": "api/StudentAdmission",
+      "applicationUrl": "https://localhost:7082;http://localhost:5116",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    },
+
+    "IIS Express": {
+      "commandName": "IISExpress",
+      "launchBrowser": true,
+      "launchUrl": "api/StudentAdmission",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    }
+  }
+}
